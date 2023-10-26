@@ -69,14 +69,23 @@ The command has the following format: Q.
 This operation must be implemented so that you can prevent memory leaks.
 
 Below is an example of possible command sequence.
+
 A Kankkunen Renault
+
 A Latvala Volkswagen
+
 U Kankkunen 0 52 16
+
 U Latvala 1 01 20
+
 U Kankkunen 0 49 50
+
 U Latvala 0 47 15
+
 L
+
 W tulokset
+
 Q
 
 As a result, Kankkunen will have total time of 1 hour, 42 minutes and 6 seconds, while Latvala has 1 hour, 48 minutes and 35 seconds. Kankkunen will be printed before Latvala in the results table. The table will be written to the text file “tulokset”.
