@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/alexm/Library/CloudStorage/OneDrive-AaltoUniversity/Programmering/C Basics/Basics C project",
+      "program": "/Users/alexm/Library/CloudStorage/OneDrive-AaltoUniversity/Programmering/C Basics/Basics C project/build/Debug/outDebug"
+    }
+  ]
+}

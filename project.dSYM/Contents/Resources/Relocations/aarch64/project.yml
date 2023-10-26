@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/alexm/Library/CloudStorage/OneDrive-AaltoUniversity/Programmering/C Basics/Basics C project/project'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100002E88, symSize: 0x4F8 }
+  - { offsetInCU: 0x4E, offset: 0x4E, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100002E88, symSize: 0x4F8 }
+  - { offsetInCU: 0x145, offset: 0x145, size: 0x8, addend: 0x0, symName: _add_driver, symObjAddr: 0x4F8, symBinAddr: 0x100003380, symSize: 0x144 }
+  - { offsetInCU: 0x1A5, offset: 0x1A5, size: 0x8, addend: 0x0, symName: _print_race, symObjAddr: 0x63C, symBinAddr: 0x1000034C4, symSize: 0x2A8 }
+  - { offsetInCU: 0x24D, offset: 0x24D, size: 0x8, addend: 0x0, symName: _load_from_file, symObjAddr: 0x8E4, symBinAddr: 0x10000376C, symSize: 0x248 }
+  - { offsetInCU: 0x2ED, offset: 0x2ED, size: 0x8, addend: 0x0, symName: _update_total_time, symObjAddr: 0xB2C, symBinAddr: 0x1000039B4, symSize: 0x2C4 }
+  - { offsetInCU: 0x377, offset: 0x377, size: 0x8, addend: 0x0, symName: _calculate_total_time, symObjAddr: 0xDF0, symBinAddr: 0x100003C78, symSize: 0x44 }
+...
