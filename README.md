@@ -18,11 +18,11 @@ The system must be able to process the following commands:
 
 Add driver command, which adds a driver to the system.
 The command has the following format.
-A <surname> <team>
+A surname team
 where
-<surname>
+surname
 is the driver’s surname, which is an arbitrary length string.
-<team>
+team
 is the name of the team, which is an arbitrary length string.
 For example, a valid add character command is as follows.
 A Kankkunen Renault
@@ -31,15 +31,15 @@ If the character with the specified name is already in the system, the program m
 
 Update total time command, which adds the specified time to the driver’s total time.
 The command has the following format.
-U <surname> <hour> <minute> <second>
+U surname hour minute second
 where
-<surname>
+surname
 is the driver’s surname.
-<hour>
+hour
 is the number of hours to be added. This must be a non-negative integer.
-<minute>
+minute
 is the number of minutes to be added. This must be in the valid minutes range.
-<second>
+second
 is the number of seconds to be added. This must be in the valid seconds range.
 For example, a valid update total time command is as follows.
 U Kankkunen 0 52 16
@@ -50,7 +50,7 @@ Print race command, which displays the race time table.
 The command has the following format.
 L
 It prints the stored drivers on separate lines as follows.
-<surname> <team> <hour> <minute> <second>
+surname team hour minute second
 where the entries are the names of the driver data fields.
 For example, print race command output is as follows.
 Shipiro Toyota 1 55 08
@@ -61,20 +61,20 @@ The worth of this command is two points. The worth of printing all the database 
 
 Save to file command, which saves the database to a text file.
 The command has the following format.
-W <filename>
+W filename
 where
-<filename>
+filename
 is the name of the text file.
 It writes the stored drivers on separate lines as follows.
-<surname> <team> <hour> <minute> <second>
+surname team hour minute second
 where the entries are the names of the driver data fields.
 If an error occurs, it must print an error message.
 
 Load from file command, which loads drivers from a text file saved using Save to file command.
 The command has the following format.
-O <filename>
+O filename
 where
-<filename>
+filename
 is the name of the text file.
 It assumes the stored drivers are on a separate line in the format specified above.
 If an error occurs, it should print an error message.
